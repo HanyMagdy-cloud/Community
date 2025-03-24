@@ -9,7 +9,7 @@ namespace Community.Repository.Repos
     public class UserRepo : IUser
 
     {
-        // Private field to hold the connection string for the database...
+        // Private field to hold the connection string for the database..
         private readonly string _connString;
         public UserRepo(IConfiguration config)
         {
